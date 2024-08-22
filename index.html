@@ -18,11 +18,14 @@
         .navbar-end {
             width: 17%;
         }
+        .card-body {
+          flex-direction: row;
+        }
     </style>
 </head>
-<body class="md:w-5/6 mx-auto font-regular">
+<body class="font-regular">
     <!-- Header Section -->
-     <header>
+     <header class="md:w-5/6 mx-auto ">
         <!-- Navbar -->
          <nav class="my-8">
             <div class="navbar bg-base-100">
@@ -58,10 +61,8 @@
                 </div>
               </div>
          </nav>
-     </header>
-     <!-- Main Section -->
-      <main>
-        <!-- Barn House Section -->
+         <!-- Banner -->
+           <!-- Barn House Section -->
          <div class="my-8">
             <div class="flex justify-center">
                 <img src="assets/banner.png" alt="">
@@ -80,6 +81,47 @@
                 </div>
               </div>
          </div>
+     </header>
+     <!-- Main Section -->
+      <main>
+            <!-- Liveable spaces -->
+             <div class="bg-base-200 py-12">
+              <div class="lg:w-4/5 md:block hidden ">
+                <img class="px-16" src="assets/Vector.png" alt="">
+              </div>
+                <div class="hero bg-base-200 space-y-2 mt-8 w-50%">
+                    <div class="hero-content flex-col flex-col-reverse lg:flex-row-reverse">
+                      <img
+                        src="assets/Rectangle.png"
+                        class="lg:max-w-md  lg:w-1/2 rounded-lg shadow-2xl" />
+                      <div class="space-y-2 w-4/5 "> 
+                        <button class="flex justify-center items-center gap-3 bg-white rounded-full px-4 lg:text-gray-200 font-bold"><i class="fa-solid font-semibold text-2xl lg:text-gray-200 fa-arrow-right"></i> About Us</button>
+                        <h1 class="text-3xl text-black font-extrabold">We design thoughtful, <br> liveable spaces</h1>
+                        <p class="py-6 lg:text-gray-200">
+                        The barn house captivates with its blend of rustic charm and modern sophistication,  featuring <br> weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                        </p>
+                        <div class="card flex lg:text-gray-200 bg-base-100 w-full shadow-xl">
+                          <div class="card-body">
+                            <img class="w-10" src="assets/commercial.png" alt="">
+                            <div>
+                              <h2 class="card-title">Commercial</h2>
+                            <p class="flex lg:hidden lg:text-gray-400 ">The barn house captivates with its blend of rustic <br> charm and modern</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card flex lg:text-gray-200 bg-base-100 w-full shadow-xl">
+                          <div class="card-body">
+                            <img class="w-10" src="assets/residential.png" alt="">
+                            <div>
+                              <h2 class="card-title">Residential</h2>
+                            <p class="flex lg:hidden text-gray-400 ">The barn house captivates with its blend of rustic <br> charm and modern</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+             </div>
       </main>
       <!-- Footer Section -->
        <footer>
